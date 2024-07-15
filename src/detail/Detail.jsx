@@ -35,7 +35,7 @@ const Detail = () => {
       <div className="user">
         <img src={ user?.avatar || "./avatar.png" } alt="" />
         <h2>{ user?.username }</h2>
-        <p>mai duniya ka sabse bada behen ka loda hu</p>
+        <p>Description wala feature abhi work nahi karta</p>
       </div>
 
       <div className="info">
