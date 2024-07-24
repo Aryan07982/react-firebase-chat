@@ -104,14 +104,25 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            transition: all 0.2s ease;
+
+            &:active{
+                transform: scale(0.92);
+            }
 
             &:hover{
                 background-color: rgba(220,20,60,0.796);
+                padding: 12px;
             }
 
             &.logout{
                 padding: 10px;
-                background-color: #1a73e8;
+                background-color: #5183fe;
+
+                &:hover{
+                    background-color: #026ffd;
+                    padding: 12px;
+                }
             }
         }
     }

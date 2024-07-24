@@ -100,7 +100,7 @@
 
                 p{
                     padding: 20px;
-                    background-color: rgba(17,25,40,0.3);
+                    background-color: rgba(14, 255, 2, 0.462);
                     border-radius: 10px;
                 }
 
@@ -164,10 +164,18 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            transition: all 0.2s ease;
+
+            &:active{
+                transform: scale(0.80);
+            }
 
             &:disabled{
                 background-color: #5182feb4;
                 cursor: not-allowed;
+            }
+            &:hover{
+                background-color: #1a73e8;
             }
         }
     }

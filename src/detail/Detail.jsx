@@ -5,7 +5,7 @@ import { useUserStore } from '../lib/userStore';
 import './detail.css'
 
 const Detail = () => {
-  const { chatId, user, isCurrentUserBlocked, isReceiverBlocked, changeBlock, resetChat } =
+  const { user, isCurrentUserBlocked, isReceiverBlocked, changeBlock, resetChat } =
     useChatStore();
   const { currentUser } = useUserStore();
 
@@ -53,7 +53,7 @@ const Detail = () => {
         </div>
         <div className="option">
           <div className="title">
-            <span>Share photos</span>
+            <span>Shared photos</span>
             <img src="arrowDown.png" alt="" />
           </div>
           <div className="photos">

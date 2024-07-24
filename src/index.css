@@ -13,11 +13,11 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .container{
-  width: 80vw;
+  width: 100vw;
   height: 90vh;
   background-color: rgba(17,25,45,0.75);
   backdrop-filter: blur(19px) saturate(180%);
